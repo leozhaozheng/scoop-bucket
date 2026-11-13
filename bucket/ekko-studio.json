@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "3ec19a3cd0744ef8d176948919a56b3635f02fcc6857f0e04142ed1ae9c10cb9",
-            "url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.21/Ekko.Studio-0.8.21-x64.exe#/dl.7z"
+            "hash": "7e72c2e8e5cca64aa8b057ea41c04d5d6d982acfe0c1e924f8ab50adb8640f23",
+            "url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.22/Ekko.Studio-0.8.22-x64.exe#/dl.7z"
         }
     },
     "autoupdate": {
@@ -32,5 +32,5 @@
             "Ekko Studio"
         ]
     ],
-    "version": "0.8.21"
+    "version": "0.8.22"
 }

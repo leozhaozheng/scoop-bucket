@@ -1,12 +1,12 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "97143c248a48aaa6c29781c5760acbe5347aa86fffaa8cde0247e42d2c5cec9b",
-            "url": "https://github.com/Licoy/sshyard/releases/download/v1.2.0/sshyard-1.2.0-windows-amd64-portable.zip"
+            "hash": "d6c3681c38ff3c0deb7ca814b5462afba73f18f5cd0c9f1571f390b8924e6d44",
+            "url": "https://github.com/Licoy/sshyard/releases/download/v1.5.0/sshyard-1.5.0-windows-amd64-portable.zip"
         },
         "arm64": {
-            "hash": "ffe8b5fa7b8549708fdddd5c12a2942da8f96d368c4f0733746f5b607a54a8c9",
-            "url": "https://github.com/Licoy/sshyard/releases/download/v1.2.0/sshyard-1.2.0-windows-arm64-portable.zip"
+            "hash": "5b3b0a8c3b772c25cc76768b6e9b737400dd54242fa9838769d8fe97e2ec8652",
+            "url": "https://github.com/Licoy/sshyard/releases/download/v1.5.0/sshyard-1.5.0-windows-arm64-portable.zip"
         }
     },
     "autoupdate": {
@@ -28,9 +28,7 @@
     "description": "A native desktop SSH / SFTP client that brings terminals, file management and AI assistance into one app. | 桌面 SSH / SFTP 客户端，将终端、文件管理与 AI 助手集成于一体",
     "homepage": "https://sshyard.com",
     "license": "AGPL-3.0-only",
-    "pre_install": [
-        "Stop-Process -Name SSHYard -Force -ErrorAction SilentlyContinue"
-    ],
+    "pre_install": "Stop-Process -Name SSHYard -Force -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "SSHYard.exe",
@@ -38,9 +36,7 @@
         ]
     ],
     "uninstaller": {
-        "script": [
-            "Stop-Process -Name SSHYard -Force -ErrorAction SilentlyContinue"
-        ]
+        "script": "Stop-Process -Name SSHYard -Force -ErrorAction SilentlyContinue"
     },
-    "version": "1.2.0"
+    "version": "1.5.0"
 }

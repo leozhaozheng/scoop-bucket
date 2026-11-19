@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "831b308385902aa51001e63f4b9971ebf95bc823470308d7abcd0e1556dc558d",
-            "url": "https://github.com/LingCore/WinShun/releases/download/v0.38.0/WinShun-0.38.0-x64-portable.zip"
+            "hash": "025fab6e9ef061d46e7bcc1b3e1eae353fdffa9ee6dba361b9df6f1b63a61be5",
+            "url": "https://github.com/LingCore/WinShun/releases/download/v0.40.0/WinShun-0.40.0-x64-portable.zip"
         }
     },
     "autoupdate": {
@@ -34,5 +34,5 @@
     "uninstaller": {
         "script": "Stop-Process -Name WinShun -Force -ErrorAction SilentlyContinue"
     },
-    "version": "0.38.0"
+    "version": "0.40.0"
 }

@@ -27,8 +27,7 @@
         "OcrModel"
     ],
     "post_install": [
-        "if (!(Test-Path \"$dir\\Config\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config\\config.json\" -Value '{\"System.Update.AutoCheckUpdate\":{\"subConf\":{\"checkBeta\":false},\"value\":false}}' }",
-        "Start-Process \"$dir\\PixPin.exe\""
+        "if (!(Test-Path \"$dir\\Config\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config\\config.json\" -Value '{\"System.Update.AutoCheckUpdate\":{\"subConf\":{\"checkBeta\":false},\"value\":false}}' }"
     ],
     "pre_install": [
         "Stop-Process -Name PixPin -Force -ErrorAction SilentlyContinue"

@@ -20,7 +20,6 @@
     "homepage": "https://www.deepseek.com/harness/",
     "license": "MIT",
     "notes": "Developer preview - expect compatibility-breaking changes.",
-    "post_install": "Start-Process \"$dir\\DeepSeek Harness.exe\"",
     "pre_install": [
         "Stop-Process -Name 'DeepSeek Harness' -Force -ErrorAction SilentlyContinue",
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",

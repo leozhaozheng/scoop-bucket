@@ -20,9 +20,13 @@
         "github": "https://github.com/Ciao1019/ArcMD"
     },
     "description": "A fast, native rich-text editor with colorful spaces, split views, and local-first notes.",
+    "env_set": {
+        "ARCMD_HOME": "$persist_dir\\ArcMD"
+    },
     "homepage": "https://arcmd.wl.do",
     "license": "MIT",
-    "notes": "ArcMD is NOT portable.",
+    "notes": "Spaces and settings are kept in the Scoop persist folder (ARCMD_HOME).",
+    "persist": "ArcMD",
     "pre_install": [
         "Stop-Process -Name ArcMD -Force -ErrorAction SilentlyContinue"
     ],
